@@ -19,6 +19,8 @@ public class Main {
 		p.crecer(incremento);
 		System.out.println("Mides ahora -> " + p.estatura);
 		
+		//Esto para metodos constructores
+		Persona persona = new Persona("Pepe", 20, 1.90); // se lo pasamos a las funciones de persona	
 		
 	}
 

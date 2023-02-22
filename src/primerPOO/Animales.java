@@ -20,4 +20,22 @@ public class Animales {
 						// a la vez
 		iD++;
 	}
+
+	public Animales(String nombre) {
+		iD++;
+		this.nombre = nombre;
+		System.out.println("El nombre es " + this.nombre);
+		
+	}
+
+	public Animales(String nombre, int edad) {
+		iD++;
+		this.nombre = nombre;
+		this.edad = edad;
+		System.out.println("Mi mascota " + this.nombre + " y tiene " + this.edad + " y su ID es "+ iD);
+	}
+
+	
+	
+
 }

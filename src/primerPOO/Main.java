@@ -12,6 +12,7 @@ public class Main {
 		miAnimales.edad=14;
 		miAnimales.mostrarNombre();
 		miAnimales.mostrarCaracteristicas(miAnimales.nombre, miAnimales.edad, Animales.iD);
+		
 		Animales miAnimales2 = new Animales();
 		
 		miAnimales2.nombre="Guffi";
@@ -20,6 +21,9 @@ public class Main {
 		miAnimales2.mostrarCaracteristicas(miAnimales2.nombre, miAnimales2.edad, miAnimales2.iD);
 		mostrarMenu();
 		
+		Animales miAnimales3 = new Animales("Miguelito");
+		Animales miAnimales4 = new Animales("Constantino", 23);
+		System.out.println("El Id de " + miAnimales3.nombre + " es: " + Animales.iD);
 	}
 
 }

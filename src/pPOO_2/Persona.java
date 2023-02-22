@@ -2,7 +2,7 @@ package pPOO_2;
 
 public class Persona {
 	String nombre;
-	byte edad;
+	int edad;
 	double estatura;
 	
 	public void saludar() {
@@ -17,5 +17,24 @@ public class Persona {
 	public void crecer(double incremento) {
 		estatura += incremento;
 	}
+
+	public Persona(String nombre) {
+		
+		this.nombre = nombre;
+		System.out.println("El nombre de la persona es: " + this.nombre);
+	}
+
+	public Persona(String nombre, int edad, double estatura) {
+		
+		this.nombre = nombre;
+		this.edad = edad;
+		this.estatura = estatura;
+	}
+
+	public Persona() {
+		super();
+	}
+	
+	
 	
 }
