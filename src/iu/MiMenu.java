@@ -27,6 +27,7 @@ public class MiMenu {
 			}
 		default -> System.out.println("Opcion erronea");
 		}
+		int prueba;
 		
 	} while(opcion != 3);
 	
